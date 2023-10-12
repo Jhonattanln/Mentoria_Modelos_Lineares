@@ -1,8 +1,11 @@
 ---
 title: "Modelos Lineares"
-author: "Jhonattan Lino"
+author: Jhonattan Lino
 date: "2023-10-12"
-output: pdf_document
+output: 
+  pdf_document:
+    keep_tex: true
+    fig_caption: true
 ---
 
 # Modelos Lineares
@@ -19,30 +22,12 @@ ii. Preditiva - Previsãoo dos dados futuros não observados em função das var
 
 O modelos mais simples de uma relação linear entre variáveis é explicita da seguinte forma:
 
-$y= \beta_0 + \beta_1x$
+#### $y= \beta_0 + \beta_1x$
 
-*Assumindo que não haja erro
+\*Assumindo que não haja erro
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+Na presença de erro o modelo deve ser descrito como:
 
-## R Markdown
+#### $y=\beta_0 + \beta_1x + \varepsilon$
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Os termos da equação $\beta_0$ e $\beta_1$ são os parâmetros que definem a relação linear entre as duas variáveis enquanto o $\varepsilon$ é o termo aleatório do modelos.
