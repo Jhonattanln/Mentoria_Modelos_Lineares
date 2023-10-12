@@ -1,0 +1,23 @@
+---
+title: "Modelos Lineares"
+author: "Jhonattan Lino"
+format: pdf
+editor: visual
+---
+
+Uma analise de regressão tem como objetivo descrever a relação do valor médio esperado de uma variável resposta aleatória dado o conjunto de outras variáveis explicaticas. A regressão linear tem como tem como objetivo analisar a relação (função) linear entre essas vairáveis.
+
+As duas funções de uma análise de regressão são: I - Exploratória: Análise da relação entre variáveis aleatórias, respostas e preditoras. II - Preditiva - Previsão dos dados futuros não observados em função das variáveis preditoras.
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
