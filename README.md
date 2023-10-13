@@ -22,12 +22,12 @@ ii. Preditiva - Previsãoo dos dados futuros não observados em função das var
 
 O modelos mais simples de uma relação linear entre variáveis é explicita da seguinte forma:
 
-#### $y= \beta_0 + \beta_1x$
+$y= \beta_0 + \beta_1x$
 
 \*Assumindo que não haja erro
 
 Na presença de erro o modelo deve ser descrito como:
 
-#### $y=\beta_0 + \beta_1x + \varepsilon$
+$y=\beta_0 + \beta_1x + \varepsilon$
 
 Os termos da equação $\beta_0$ e $\beta_1$ são os parâmetros que definem a relação linear entre as duas variáveis enquanto o $\varepsilon$ é o termo aleatório do modelos.
